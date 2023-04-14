@@ -14,7 +14,7 @@ public class SwaggerConfig {
 	@Bean
 	public Docket dcApiDoc() {
 		return new Docket(DocumentationType.SWAGGER_2).select()
-				.apis(RequestHandlerSelectors.basePackage("com.mp.restcontroller")).paths(PathSelectors.any()).build();
+				.apis(RequestHandlerSelectors.basePackage("com.coapi.restcontroller")).paths(PathSelectors.any()).build();
 
 	}
 
